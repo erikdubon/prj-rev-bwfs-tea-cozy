@@ -1,0 +1,180 @@
+/* General settings */
+
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Header style */
+
+header {
+  margin: auto;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  flex-wrap: wrap;
+  position: fixed;
+  background-color: black;
+  z-index: 2;
+}
+
+.logo,
+nav {
+  display: flex;
+}
+
+.logo {
+  position: relative;
+  width: auto;
+  height: auto;
+  left: 10px;
+}
+
+.logo img {
+  max-height: 50px;
+  width: auto;
+  height: auto;
+}
+
+nav {
+  flex-wrap: wrap;
+}
+
+nav span {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+nav span a{
+    color: seashell;
+    text-decoration: underline;
+  }
+
+/* Styles of content */
+
+/*Content Mission */
+
+.content {
+  display: flex;
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  flex-direction: column;
+  position: relative;
+  top: 69px;
+}
+
+#mission {
+  display: flex;
+  width: 1200px;
+  height: 700px;
+  background-image: url("../images/img-mission-background.jpg");
+  align-items: center;
+}
+
+.infoMission {
+  width: 100%;
+  background-color: black;
+}
+
+/*Content of Tea of the Month */
+
+#featured {
+  display: flex;
+  width: 1000px;
+  height: auto;
+  margin: 60px auto;
+  flex-direction: column;
+}
+
+#featured h2,
+#featured h4 {
+  text-align: center;
+  margin: 10px auto;
+}
+
+.teasmonth {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.teas {
+  margin-bottom: 15px;
+}
+
+.marright {
+  margin-right: 50px;
+}
+
+.teas img {
+  height: 200px;
+  width: 300px;
+}
+
+/* Locations */
+
+#locations {
+  display: flex;
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  background-image: url("../images/img-locations-background.jpg");
+  align-items: center;
+  justify-content: center;
+}
+
+.locationcontent {
+  width: 1000px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.locationcontent h2 {
+  margin: 15px 0;
+}
+
+.places {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+}
+
+.locbox {
+  display: inline-flex;
+  flex-direction: column;
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+}
+
+/* Footer copyright */
+
+footer {
+  display: flex;
+  left: 20px;
+  padding: 20px;
+  position: relative;
+  top: 69px;
+}
+
+footer span {
+  text-align: left;
+}
